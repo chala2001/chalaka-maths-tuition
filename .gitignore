@@ -1,0 +1,6 @@
+node_modules
+dist
+*.local
+.vercel
+papers-src/build
+papers-src/unpublished
