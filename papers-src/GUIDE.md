@@ -172,3 +172,40 @@ Body:
 ```
 Text + diagram side by side (as in the Area sheet): wrap in `<div class="tq-row"><div>text</div><figure class="fig">…</figure></div>`.
 Answer box: keep it about the size of the original's dashed box. If the original has none (blank grid to draw on), leave the box out.
+
+## 7. Grade 9 model papers (Part I / Part II format) and their marking schemes
+
+| Doc | id | kind | title | subtitle | webTitle |
+|---|---|---|---|---|---|
+| Sinhala paper N | `g9-si-mp0N-paper` | `Model Paper` | `ආදර්ශ ප්‍රශ්න පත්‍රය — 0N` | `තෙවන වාර පරීක්ෂණය` | `Model Paper 0N` |
+| English paper N | `g9-en-mp0N-paper` | `Model Paper` | `Model Paper — 0N` | `Third Term Test` | `Model Paper 0N` |
+| scheme (si / en) | `g9-si-mp0N-scheme` / `g9-en-mp0N-scheme` | `Marking Scheme` | same as its paper | same | `Model Paper 0N — Marking Scheme` (+ `"pairOf"`) |
+
+Use `"number": N`, `"grade": 9`. Structure of the PAPER (keep every instruction line of the original):
+```html
+<div class="exam-meta"><div>කාලය: <span>පැය 3</span></div><div>මුළු ලකුණු: <span>100</span></div></div>
+<div class="name-line"><div>නම / විභාග අංකය:</div></div>
+<div class="box instructions"><ul><li>…original instruction bullets…</li></ul></div>
+<table class="grid"> examiner table: I කොටස – A /30, I කොටස – B /20, II කොටස /50, එකතුව /100 </table>
+
+<h2 class="section">I කොටස</h2>
+<div class="qa">
+  <p class="section-note">A කොටස – … (එකකට ලකුණු 2)</p>
+  <div class="q"> … Q1–Q15 with .ws + .answer-line, diagrams as figure.fig (vector crop) … </div>
+</div>
+<p class="section-note">B කොටස – …</p>
+<div class="q"> Q1, Q2 with .parts / .part / .mk exactly like G10 Part B </div>
+<div class="page-break"></div>
+<h2 class="section">II කොටස</h2>
+<p class="section-note">ප්‍රශ්න පහකට පමණක් … (එකකට ලකුණු 10)</p>
+<div class="q"> Q1–Q7 with .parts / .part / .mk </div>
+```
+Inline fractions like `2⅓`, `x/3`, `(x + 2)/3` → use the `.frac` component. Powers with `<sup>`.
+
+The MARKING SCHEME (new content written by us, must be mathematically exact):
+- Same notes box as the G10 schemes, adapted: Part I A = 2 marks each (1 method + 1 answer where there is working), Part I B and Part II = 10 marks each, marks per step in the right column, Part II: candidates answer any five.
+- `<h2 class="section">I කොටස – A — පිළිතුරු</h2>` → one `.ans` card per question (working + `.final` + `(ලකුණු 2)`).
+- `I කොටස – B` and `II කොටස` → one `.keep` block per question: `h3.qhead` + `table.scheme` + `p.total`. The step marks of every sub-part MUST add up to the marks printed on the paper for that sub-part, and every question to 10.
+- Graph / construction / sketch questions: give the key values, a short description of what a correct drawing shows, and the mark points (e.g. "correct axes and scale 1, all points plotted 1, straight line 1").
+- Measured answers (constructions, scale drawings): give the theoretical value and an acceptance range, e.g. "AC ≈ 6.3 cm (6.1 – 6.5 accepted)".
+- English and Sinhala schemes for the same paper number are the same scheme in two languages.
