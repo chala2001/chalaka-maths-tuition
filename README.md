@@ -12,7 +12,7 @@ Students can view and download model papers, marking schemes and worked answers 
 | | |
 |---|---|
 | **Grade 10 model papers** | 6 full papers (Sinhala medium), each with its marking scheme |
-| **Grade 9 worked answers** | Algebraic Fractions, Area, Axioms, Graphs, Inequalities, Loci & Constructions, in English and Sinhala |
+| **Grade 9 tutorials** | Algebraic Fractions, Area, Axioms, Graphs, Inequalities, Loci & Constructions, in English and Sinhala, each with worked answers |
 | **Paper template** | Every PDF is built from one HTML/CSS template, so all papers look the same |
 
 ## Tech

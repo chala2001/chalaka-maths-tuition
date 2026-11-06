@@ -139,8 +139,19 @@
     "kind": "Worked Answers",
     "topic": "Algebraic Fractions",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-en-algebraic-fractions-tutorial",
     "file": "/pdfs/grade-9/g9-en-algebraic-fractions-answers.pdf"
+  },
+  {
+    "id": "g9-en-algebraic-fractions-tutorial",
+    "title": "Algebraic Fractions — Tutorial",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Tutorial",
+    "topic": "Algebraic Fractions",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-algebraic-fractions-tutorial.pdf"
   },
   {
     "id": "g9-en-area-answers",
@@ -150,8 +161,19 @@
     "kind": "Worked Answers",
     "topic": "Area",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-en-area-tutorial",
     "file": "/pdfs/grade-9/g9-en-area-answers.pdf"
+  },
+  {
+    "id": "g9-en-area-tutorial",
+    "title": "Area — Tutorial",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Tutorial",
+    "topic": "Area",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-area-tutorial.pdf"
   },
   {
     "id": "g9-en-axioms-answers",
@@ -161,8 +183,19 @@
     "kind": "Worked Answers",
     "topic": "Axioms",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-en-axioms-tutorial",
     "file": "/pdfs/grade-9/g9-en-axioms-answers.pdf"
+  },
+  {
+    "id": "g9-en-axioms-tutorial",
+    "title": "Axioms — Tutorial",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Tutorial",
+    "topic": "Axioms",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-axioms-tutorial.pdf"
   },
   {
     "id": "g9-en-graphs-answers",
@@ -172,8 +205,19 @@
     "kind": "Worked Answers",
     "topic": "Graphs",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-en-graphs-tutorial",
     "file": "/pdfs/grade-9/g9-en-graphs-answers.pdf"
+  },
+  {
+    "id": "g9-en-graphs-tutorial",
+    "title": "Graphs — Tutorial",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Tutorial",
+    "topic": "Graphs",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-graphs-tutorial.pdf"
   },
   {
     "id": "g9-en-inequalities-answers",
@@ -183,8 +227,19 @@
     "kind": "Worked Answers",
     "topic": "Inequalities",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-en-inequalities-tutorial",
     "file": "/pdfs/grade-9/g9-en-inequalities-answers.pdf"
+  },
+  {
+    "id": "g9-en-inequalities-tutorial",
+    "title": "Inequalities — Tutorial",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Tutorial",
+    "topic": "Inequalities",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-inequalities-tutorial.pdf"
   },
   {
     "id": "g9-en-loci-constructions-answers",
@@ -194,8 +249,19 @@
     "kind": "Worked Answers",
     "topic": "Loci and Constructions",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-en-loci-constructions-tutorial",
     "file": "/pdfs/grade-9/g9-en-loci-constructions-answers.pdf"
+  },
+  {
+    "id": "g9-en-loci-constructions-tutorial",
+    "title": "Loci and Constructions — Tutorial",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Tutorial",
+    "topic": "Loci and Constructions",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-loci-constructions-tutorial.pdf"
   },
   {
     "id": "g9-si-algebraic-fractions-answers",
@@ -205,8 +271,19 @@
     "kind": "Worked Answers",
     "topic": "Algebraic Fractions",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-si-algebraic-fractions-tutorial",
     "file": "/pdfs/grade-9/g9-si-algebraic-fractions-answers.pdf"
+  },
+  {
+    "id": "g9-si-algebraic-fractions-tutorial",
+    "title": "Algebraic Fractions — Tutorial",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Tutorial",
+    "topic": "Algebraic Fractions",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-algebraic-fractions-tutorial.pdf"
   },
   {
     "id": "g9-si-area-answers",
@@ -216,8 +293,19 @@
     "kind": "Worked Answers",
     "topic": "Area",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-si-area-tutorial",
     "file": "/pdfs/grade-9/g9-si-area-answers.pdf"
+  },
+  {
+    "id": "g9-si-area-tutorial",
+    "title": "Area — Tutorial",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Tutorial",
+    "topic": "Area",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-area-tutorial.pdf"
   },
   {
     "id": "g9-si-axioms-answers",
@@ -227,8 +315,19 @@
     "kind": "Worked Answers",
     "topic": "Axioms",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-si-axioms-tutorial",
     "file": "/pdfs/grade-9/g9-si-axioms-answers.pdf"
+  },
+  {
+    "id": "g9-si-axioms-tutorial",
+    "title": "Axioms — Tutorial",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Tutorial",
+    "topic": "Axioms",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-axioms-tutorial.pdf"
   },
   {
     "id": "g9-si-graphs-answers",
@@ -238,8 +337,19 @@
     "kind": "Worked Answers",
     "topic": "Graphs",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-si-graphs-tutorial",
     "file": "/pdfs/grade-9/g9-si-graphs-answers.pdf"
+  },
+  {
+    "id": "g9-si-graphs-tutorial",
+    "title": "Graphs — Tutorial",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Tutorial",
+    "topic": "Graphs",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-graphs-tutorial.pdf"
   },
   {
     "id": "g9-si-inequalities-answers",
@@ -249,8 +359,19 @@
     "kind": "Worked Answers",
     "topic": "Inequalities",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-si-inequalities-tutorial",
     "file": "/pdfs/grade-9/g9-si-inequalities-answers.pdf"
+  },
+  {
+    "id": "g9-si-inequalities-tutorial",
+    "title": "Inequalities — Tutorial",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Tutorial",
+    "topic": "Inequalities",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-inequalities-tutorial.pdf"
   },
   {
     "id": "g9-si-loci-constructions-answers",
@@ -260,7 +381,18 @@
     "kind": "Worked Answers",
     "topic": "Loci and Constructions",
     "number": null,
-    "pairOf": null,
+    "pairOf": "g9-si-loci-constructions-tutorial",
     "file": "/pdfs/grade-9/g9-si-loci-constructions-answers.pdf"
+  },
+  {
+    "id": "g9-si-loci-constructions-tutorial",
+    "title": "Loci and Constructions — Tutorial",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Tutorial",
+    "topic": "Loci and Constructions",
+    "number": null,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-loci-constructions-tutorial.pdf"
   }
 ]

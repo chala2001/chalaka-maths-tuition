@@ -1,4 +1,4 @@
-import type { Paper } from "../data/papers";
+import { pairLabel, type Paper } from "../data/papers";
 import { DownloadIcon, EyeIcon } from "./Icons";
 
 const fileName = (p: { title: string; grade: number; medium: string }) =>
@@ -16,7 +16,7 @@ export default function PaperCard({ paper: p }: { paper: Paper }) {
       <div className="meta">
         <span className={`pill ${si ? "si" : "en"}`}>{si ? "සිංහල" : "English"}</span>
         <span className="pill">{p.kind}</span>
-        {p.scheme && <span className="pill ok">+ Marking scheme</span>}
+        {p.scheme && <span className="pill ok">+ {pairLabel(p)}</span>}
       </div>
       <div className="actions">
         <a className="btn ghost sm" href={p.file} target="_blank" rel="noopener">
@@ -28,7 +28,7 @@ export default function PaperCard({ paper: p }: { paper: Paper }) {
       </div>
       {p.scheme && (
         <a className="scheme-link" href={p.scheme.file} target="_blank" rel="noopener">
-          <span>Marking scheme</span>
+          <span>{pairLabel(p)}</span>
           <span>View →</span>
         </a>
       )}

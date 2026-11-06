@@ -34,13 +34,9 @@ const hasParent = new Set(DOCS.map((d) => d.id));
 
 const order = (p: Doc) =>
   // grade desc, model papers first, then number / topic
-  [-p.grade, p.kind === "Model Paper" ? 0 : p.kind === "Worked Answers" ? 1 : 2, p.number ?? 0, p.topic ?? "", p.medium];
-
-/** Tutorial notes PDFs (shown on the Tutorials page, not in the paper library). */
-export const TUTORIAL_DOCS: Doc[] = DOCS.filter((d) => d.kind === "Tutorial");
+  [-p.grade, ["Model Paper", "Tutorial", "Worked Answers", "Marking Scheme"].indexOf(p.kind), p.number ?? 0, p.topic ?? "", p.medium];
 
 export const PAPERS: Paper[] = DOCS
-  .filter((d) => d.kind !== "Tutorial")
   .filter((d) => !d.pairOf || !hasParent.has(d.pairOf)) // schemes attach to their paper
   .map((d) => ({ ...d, scheme: schemeFor.get(d.id) }))
   .sort((a, b) => {
@@ -48,3 +44,9 @@ export const PAPERS: Paper[] = DOCS
     for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] < y[i] ? -1 : 1;
     return 0;
   });
+
+/** Tutorials (also listed on the Tutorials page), each with its answers attached. */
+export const TUTORIAL_DOCS: Paper[] = PAPERS.filter((p) => p.kind === "Tutorial");
+
+/** Label for the attached document: answers for a tutorial, marking scheme for a paper. */
+export const pairLabel = (p: Paper) => (p.scheme?.kind === "Worked Answers" ? "Answers" : "Marking scheme");

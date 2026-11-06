@@ -32,7 +32,8 @@ const KINDS: Opt[] = [ALL, ...uniq(PAPERS.map((p) => p.kind)).map((k) => ({ v: k
 function groupOf(list: Paper[]) {
   const groups = new Map<string, Paper[]>();
   for (const p of list) {
-    const key = `Grade ${p.grade} · ${p.kind === "Model Paper" ? "Model Papers" : p.kind}`;
+    const plural: Record<string, string> = { "Model Paper": "Model Papers", Tutorial: "Tutorials" };
+    const key = `Grade ${p.grade} · ${plural[p.kind] ?? p.kind}`;
     groups.set(key, [...(groups.get(key) ?? []), p]);
   }
   return [...groups];
@@ -65,7 +66,7 @@ export default function Papers() {
         <div className="wrap">
           <span className="eyebrow">Paper library</span>
           <h1>Free maths <em>papers.</em></h1>
-          <p>Model papers with marking schemes, and worked answers by topic. View online or download.</p>
+          <p>Model papers with marking schemes, and topic tutorials with worked answers. View online or download.</p>
         </div>
       </section>
 
