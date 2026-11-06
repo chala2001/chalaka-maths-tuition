@@ -145,3 +145,30 @@ Sub-parts with marks (Part B):
 2. Create `docs/g10-si-mp04-paper.html` by copying a template from `local-docs/templates/` (or `node local-docs/new.mjs paper si 10 4`).
 3. Set `"publish": true` in both `g10-si-mp04-paper` and `g10-si-mp04-scheme`.
 4. `node papers-src/build.mjs` — PDFs land in `public/pdfs/`, the website list updates automatically.
+
+## 6. Grade 9 tutorial question sheets
+
+| Doc | id | kind | title | subtitle | webTitle |
+|---|---|---|---|---|---|
+| English | `g9-en-<slug>-tutorial` | `Tutorial` | `Area` | `Structured (Essay-type) Questions` (as original) | `Area — Tutorial` |
+| Sinhala | `g9-si-<slug>-tutorial` | `Tutorial` | `වර්ගඵලය` | `ව්‍යුහගත (රචනා) ප්‍රශ්න` (as original) | `Area — Tutorial` |
+
+Set `"topic"` to the English topic name. The matching worked-answers doc gets
+`"pairOf": "<tutorial id>"`, so the website shows the answers on the tutorial's card.
+
+Body:
+```html
+<div class="name-line"><div>Name:</div><div class="short">Date:</div></div>
+<div class="box note"><b>Remember:</b> …</div>            <!-- only if the original has a "Remember" box -->
+<p>Instructions: …</p>
+
+<div class="tq">
+  <h3 class="qhead">Question 1</h3>
+  <p>question text</p>
+  <p class="sol"><span class="pl">(i)</span> sub-question</p>
+  <figure class="fig">…</figure>                         <!-- grids / diagrams: vector crop -->
+  <div class="answer-box"></div>                          <!-- .s / (default) / .l / .xl -->
+</div>
+```
+Text + diagram side by side (as in the Area sheet): wrap in `<div class="tq-row"><div>text</div><figure class="fig">…</figure></div>`.
+Answer box: keep it about the size of the original's dashed box. If the original has none (blank grid to draw on), leave the box out.

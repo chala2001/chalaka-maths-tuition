@@ -122,6 +122,15 @@ table.scheme tr { break-inside: avoid; }
 .sol .pl { display: inline-block; min-width: 8mm; color: var(--ink-2); }
 .res { font-weight: 700; }
 
+/* ---------- Tutorial question sheets ---------- */
+.tq { border: .8pt solid var(--line); border-radius: 2mm; background: var(--soft); padding: 2.5mm 4mm 3mm; margin: 0 0 4mm; break-inside: avoid; }
+.tq > h3.qhead { margin-top: 0; border-bottom: 0; padding-bottom: 0; }
+.tq p { margin: 0 0 1.5mm; }
+.answer-box { border: .8pt dashed #b5bccb; border-radius: 1.5mm; background: #fff; height: 40mm; margin-top: 2.5mm; }
+.answer-box.s { height: 22mm; } .answer-box.l { height: 62mm; } .answer-box.xl { height: 85mm; }
+.tq-row { display: flex; gap: 5mm; align-items: flex-start; }
+.tq-row > div:first-child { flex: 1; }
+
 /* ---------- Tutorial notes ---------- */
 .key { border-left: 1.4mm solid var(--gold); background: var(--gold-soft); padding: 2mm 4mm; margin: 0 0 3mm; border-radius: 0 2mm 2mm 0; break-inside: avoid; }
 .key > b:first-child { display: block; color: var(--navy); }

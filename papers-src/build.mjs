@@ -26,8 +26,8 @@ const CHROME = [
 ].find(existsSync);
 
 const KIND = {
-  si: { "Model Paper": "ප්‍රශ්න පත්‍රය", "Marking Scheme": "ලකුණු දීමේ පටිපාටිය", "Worked Answers": "පිළිතුරු හා විසඳුම්", "Tutorial": "පාඩම් සටහන්" },
-  en: { "Model Paper": "Question Paper", "Marking Scheme": "Marking Scheme", "Worked Answers": "Worked Answers", "Tutorial": "Tutorial Notes" },
+  si: { "Model Paper": "ප්‍රශ්න පත්‍රය", "Marking Scheme": "ලකුණු දීමේ පටිපාටිය", "Worked Answers": "පිළිතුරු හා විසඳුම්", "Tutorial": "පුහුණු ප්‍රශ්න පත්‍රය" },
+  en: { "Model Paper": "Question Paper", "Marking Scheme": "Marking Scheme", "Worked Answers": "Worked Answers", "Tutorial": "Tutorial" },
 };
 
 const esc = (s = "") => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
