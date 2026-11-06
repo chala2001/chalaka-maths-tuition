@@ -264,6 +264,138 @@
     "file": "/pdfs/grade-9/g9-en-loci-constructions-tutorial.pdf"
   },
   {
+    "id": "g9-en-mp01-paper",
+    "title": "Model Paper 01",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 1,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-mp01-paper.pdf"
+  },
+  {
+    "id": "g9-en-mp01-scheme",
+    "title": "Model Paper 01 — Marking Scheme",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 1,
+    "pairOf": "g9-en-mp01-paper",
+    "file": "/pdfs/grade-9/g9-en-mp01-scheme.pdf"
+  },
+  {
+    "id": "g9-en-mp02-paper",
+    "title": "Model Paper 02",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 2,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-mp02-paper.pdf"
+  },
+  {
+    "id": "g9-en-mp02-scheme",
+    "title": "Model Paper 02 — Marking Scheme",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 2,
+    "pairOf": "g9-en-mp02-paper",
+    "file": "/pdfs/grade-9/g9-en-mp02-scheme.pdf"
+  },
+  {
+    "id": "g9-en-mp03-paper",
+    "title": "Model Paper 03",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 3,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-mp03-paper.pdf"
+  },
+  {
+    "id": "g9-en-mp03-scheme",
+    "title": "Model Paper 03 — Marking Scheme",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 3,
+    "pairOf": "g9-en-mp03-paper",
+    "file": "/pdfs/grade-9/g9-en-mp03-scheme.pdf"
+  },
+  {
+    "id": "g9-en-mp04-paper",
+    "title": "Model Paper 04",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 4,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-mp04-paper.pdf"
+  },
+  {
+    "id": "g9-en-mp04-scheme",
+    "title": "Model Paper 04 — Marking Scheme",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 4,
+    "pairOf": "g9-en-mp04-paper",
+    "file": "/pdfs/grade-9/g9-en-mp04-scheme.pdf"
+  },
+  {
+    "id": "g9-en-mp05-paper",
+    "title": "Model Paper 05",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 5,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-mp05-paper.pdf"
+  },
+  {
+    "id": "g9-en-mp05-scheme",
+    "title": "Model Paper 05 — Marking Scheme",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 5,
+    "pairOf": "g9-en-mp05-paper",
+    "file": "/pdfs/grade-9/g9-en-mp05-scheme.pdf"
+  },
+  {
+    "id": "g9-en-mp06-paper",
+    "title": "Model Paper 06",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 6,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-en-mp06-paper.pdf"
+  },
+  {
+    "id": "g9-en-mp06-scheme",
+    "title": "Model Paper 06 — Marking Scheme",
+    "grade": 9,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 6,
+    "pairOf": "g9-en-mp06-paper",
+    "file": "/pdfs/grade-9/g9-en-mp06-scheme.pdf"
+  },
+  {
     "id": "g9-si-algebraic-fractions-answers",
     "title": "Algebraic Fractions — Worked Answers",
     "grade": 9,
@@ -394,5 +526,137 @@
     "number": null,
     "pairOf": null,
     "file": "/pdfs/grade-9/g9-si-loci-constructions-tutorial.pdf"
+  },
+  {
+    "id": "g9-si-mp01-paper",
+    "title": "Model Paper 01",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 1,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-mp01-paper.pdf"
+  },
+  {
+    "id": "g9-si-mp01-scheme",
+    "title": "Model Paper 01 — Marking Scheme",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 1,
+    "pairOf": "g9-si-mp01-paper",
+    "file": "/pdfs/grade-9/g9-si-mp01-scheme.pdf"
+  },
+  {
+    "id": "g9-si-mp02-paper",
+    "title": "Model Paper 02",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 2,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-mp02-paper.pdf"
+  },
+  {
+    "id": "g9-si-mp02-scheme",
+    "title": "Model Paper 02 — Marking Scheme",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 2,
+    "pairOf": "g9-si-mp02-paper",
+    "file": "/pdfs/grade-9/g9-si-mp02-scheme.pdf"
+  },
+  {
+    "id": "g9-si-mp03-paper",
+    "title": "Model Paper 03",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 3,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-mp03-paper.pdf"
+  },
+  {
+    "id": "g9-si-mp03-scheme",
+    "title": "Model Paper 03 — Marking Scheme",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 3,
+    "pairOf": "g9-si-mp03-paper",
+    "file": "/pdfs/grade-9/g9-si-mp03-scheme.pdf"
+  },
+  {
+    "id": "g9-si-mp04-paper",
+    "title": "Model Paper 04",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 4,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-mp04-paper.pdf"
+  },
+  {
+    "id": "g9-si-mp04-scheme",
+    "title": "Model Paper 04 — Marking Scheme",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 4,
+    "pairOf": "g9-si-mp04-paper",
+    "file": "/pdfs/grade-9/g9-si-mp04-scheme.pdf"
+  },
+  {
+    "id": "g9-si-mp05-paper",
+    "title": "Model Paper 05",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 5,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-mp05-paper.pdf"
+  },
+  {
+    "id": "g9-si-mp05-scheme",
+    "title": "Model Paper 05 — Marking Scheme",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 5,
+    "pairOf": "g9-si-mp05-paper",
+    "file": "/pdfs/grade-9/g9-si-mp05-scheme.pdf"
+  },
+  {
+    "id": "g9-si-mp06-paper",
+    "title": "Model Paper 06",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 6,
+    "pairOf": null,
+    "file": "/pdfs/grade-9/g9-si-mp06-paper.pdf"
+  },
+  {
+    "id": "g9-si-mp06-scheme",
+    "title": "Model Paper 06 — Marking Scheme",
+    "grade": 9,
+    "medium": "Sinhala",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 6,
+    "pairOf": "g9-si-mp06-paper",
+    "file": "/pdfs/grade-9/g9-si-mp06-scheme.pdf"
   }
 ]
