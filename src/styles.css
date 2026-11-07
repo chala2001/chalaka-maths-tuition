@@ -286,8 +286,13 @@ section { padding: 96px 0; }
 .contact-list a.wa { background: var(--gold); border-color: var(--gold); color: #fff; }
 .contact-list a.wa svg, .contact-list a.wa small { color: #fff; }
 
+.social-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
 /* ============ Footer ============ */
 footer { padding: 40px 0; color: var(--muted); font-size: 14px; }
+footer .foot-links { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
+footer .foot-links a { color: var(--ink-2); text-decoration: underline; text-underline-offset: 3px; }
+footer .foot-links a:hover { color: var(--gold); }
 footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 28px; }
 
 /* ============ Responsive ============ */

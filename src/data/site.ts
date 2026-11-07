@@ -11,6 +11,8 @@ export const SITE = {
   email: "chalakasamith@gmail.com",
   location: "Online · In person · Group classes",
   photo: "/chalak_PP.jpeg", // photo lives in /public
+  linkedin: "https://www.linkedin.com/in/chalaka-perera-a280b9324/",
+  medium: "https://medium.com/@chalakasamith",
 };
 
 export const waLink = (msg = "Hi Sir, I'd like to know about your maths classes.") =>

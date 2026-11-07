@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Reveal from "../components/Reveal";
 import PaperCard from "../components/PaperCard";
-import { MailIcon, PhoneIcon, WhatsAppIcon } from "../components/Icons";
+import { LinkedInIcon, MailIcon, MediumIcon, PhoneIcon, WhatsAppIcon } from "../components/Icons";
 import { PAPERS } from "../data/papers";
 import { SITE, waLink } from "../data/site";
 import { useTitle } from "../hooks";
@@ -177,6 +177,10 @@ export default function Home() {
               <a className="wa" href={wa} target="_blank" rel="noopener"><WhatsAppIcon /><span><small>WhatsApp</small>Message me</span></a>
               <a href={`tel:${SITE.phone.replace(/\s/g, "")}`}><PhoneIcon /><span><small>Call</small>{SITE.phone}</span></a>
               <a href={`mailto:${SITE.email}`}><MailIcon /><span><small>Email</small>{SITE.email}</span></a>
+              <div className="social-row">
+                <a href={SITE.linkedin} target="_blank" rel="noopener"><LinkedInIcon /><span><small>LinkedIn</small>Chalaka Perera</span></a>
+                <a href={SITE.medium} target="_blank" rel="noopener"><MediumIcon /><span><small>Medium</small>Articles</span></a>
+              </div>
             </div>
           </Reveal>
         </div>

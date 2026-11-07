@@ -34,7 +34,7 @@ const hasParent = new Set(DOCS.map((d) => d.id));
 
 const order = (p: Doc) =>
   // grade desc, model papers first, then number / topic
-  [-p.grade, ["Model Paper", "Tutorial", "Worked Answers", "Marking Scheme"].indexOf(p.kind), p.number ?? 0, p.topic ?? "", p.medium];
+  [-p.grade, ["Model Paper", "Tutorial", "Worked Answers", "Marking Scheme"].indexOf(p.kind), p.number ?? 0, p.topic ?? "", p.medium, p.id];
 
 export const PAPERS: Paper[] = DOCS
   .filter((d) => !d.pairOf || !hasParent.has(d.pairOf)) // schemes attach to their paper

@@ -68,7 +68,11 @@ export default function Layout() {
       <footer>
         <div className="wrap">
           <span>© {new Date().getFullYear()} {SITE.name} · Mathematics</span>
-          <span>{SITE.location}</span>
+          <span className="foot-links">
+            <a href={SITE.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+            <a href={SITE.medium} target="_blank" rel="noopener">Medium</a>
+            <span>{SITE.location}</span>
+          </span>
         </div>
       </footer>
     </>

@@ -26,3 +26,9 @@ export const DocIcon = () => (
 export const SearchIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></svg>
 );
+export const LinkedInIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.95 1.32-1.95 2.69V21h-4z" /></svg>
+);
+export const MediumIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="6.8" cy="12" rx="6.3" ry="6.3" /><ellipse cx="17" cy="12" rx="3.2" ry="6" /><ellipse cx="22.2" cy="12" rx="1.3" ry="5.4" /></svg>
+);
