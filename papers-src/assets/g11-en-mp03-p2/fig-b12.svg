@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 235" width="310" height="235" font-family="Inter, Arial, 'Nirmala UI', 'Noto Sans Sinhala', sans-serif" font-size="11">
+<g fill="none" stroke="#16182a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="5" y="5" width="300" height="225" />
+<circle cx="120" cy="95" r="55" />
+<circle cx="190" cy="95" r="55" />
+<circle cx="155" cy="150" r="55" />
+<text x="70.0" y="38.0" text-anchor="middle" stroke="none" fill="#16182a">D</text>
+<text x="240.0" y="38.0" text-anchor="middle" stroke="none" fill="#16182a">F</text>
+<text x="155.0" y="222.0" text-anchor="middle" stroke="none" fill="#16182a">C</text>
+<text x="20.0" y="22.0" text-anchor="middle" stroke="none" fill="#16182a">ξ</text>
+<text x="155.0" y="76.0" text-anchor="middle" stroke="none" fill="#16182a">6</text>
+</g>
+</svg>
