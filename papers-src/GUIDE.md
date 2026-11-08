@@ -209,3 +209,46 @@ The MARKING SCHEME (new content written by us, must be mathematically exact):
 - Graph / construction / sketch questions: give the key values, a short description of what a correct drawing shows, and the mark points (e.g. "correct axes and scale 1, all points plotted 1, straight line 1").
 - Measured answers (constructions, scale drawings): give the theoretical value and an acceptance range, e.g. "AC ≈ 6.3 cm (6.1 – 6.5 accepted)".
 - English and Sinhala schemes for the same paper number are the same scheme in two languages.
+
+## 8. G.C.E. (O/L) model papers (grade 11) — Paper I and Paper II
+
+These are ORIGINAL papers written by us (not converted). **Blueprint: `papers-src/ol-structure.md`**
+(slot-by-slot map of the real G.C.E. O/L 2024(2025) exam). Every model paper copies that exam slot by slot:
+the SAME lesson and SAME question nature for each question number (Paper I A1–25, B1–5; Paper II A1–6, B7–12),
+with NEW numbers, names and contexts — never copy the past-paper values or wording.
+The sub-part marks in ol-structure.md are estimates; print a sensible split that totals 10.
+
+| Doc | id | title | subtitle | webTitle |
+|---|---|---|---|---|
+| Paper I (si / en) | `g11-si-mp0N-p1` / `g11-en-mp0N-p1` | `ආදර්ශ ප්‍රශ්න පත්‍රය — 0N` / `Model Paper — 0N` | `ගණිතය I` / `Mathematics I` | `Model Paper 0N — Paper I` |
+| Paper II | `…-p2` | same | `ගණිතය II` / `Mathematics II` | `Model Paper 0N — Paper II` |
+| schemes | `…-p1-scheme`, `…-p2-scheme` | same | same | `Model Paper 0N — Paper I Marking Scheme` / `… Paper II Marking Scheme` (+ `pairOf`) |
+
+`"grade": 11`, `"kind": "Model Paper"` / `"Marking Scheme"`, `"number": N`. The header shows "G.C.E. (O/L) · Mathematics" automatically.
+
+**Paper I** — exam-meta: Time 2 hours / Total 100. `name-line` with "Index number" (විභාග අංකය).
+Instructions box = the meaning of the real cover (ol-structure.md §1): answer all questions on this paper itself;
+use only the space under each question; show steps and correct units; Part A 2 marks each, Part B 10 marks each; scrap paper may be used.
+Examiner table: Part A (1–25) /50, Part B 1–5 /10 each, Total /100. Part A note: take π = 22/7.
+Part A: `div.qa` with 25 `.q` (`.ws` + `.answer-line`), diagrams beside/under the text. Part B: 5 `.q` with `.parts`/`.part`/`.mk`, `.ws.l` working space; grids/partial graphs/tables provided exactly as the slot describes.
+
+**Paper II** — exam-meta: Time 3 hours (+ 10 minutes reading time) / Total 100. Instructions (ol-structure.md §4):
+select five questions from Part A and five from Part B (ten in all); show steps and units; each question 10 marks;
+formula notes as needed (e.g. volume of a right pyramid ⅓Ah, cylinder πr²h). Answers on separate sheets; say "copy the figure" where the slot does.
+Part A questions 1–6, Part B questions 7–12 (numbered continuously), `.parts` with `.mk` on every sub-part.
+
+**Diagrams** are drawn by us as clean inline-free SVG files `papers-src/assets/<id>/fig-N.svg`:
+stroke `#16182a`, stroke-width 1.3, no fill (or `#e8edf6` for shaded regions), labels `font-family: Inter, Arial; font-size: 11px`.
+Draw to a sensible scale and make sure every labelled length/angle matches the question text. Letter-only labels → the same SVG can be copied for the other language.
+Trigonometry: students use tables — give needed values to 4 decimal places or let students use tables; schemes use 4-figure table values.
+
+**Marking schemes** follow section 7 rules (marks per step, each B question / Paper II question = 10, sub-part marks equal the printed marks, acceptance ranges for graph/measured values).
+Paper II scheme notes must say candidates answer 5 from each part.
+
+**Sinhala**: use the exact maths terms already used in our Grade 10 papers and these:
+වැල් පොලිය (compound interest), කොටස් / ලාභාංශ (shares / dividends), වරිපනම් බදු (rates), තක්සේරු වටිනාකම (assessed value), ආදායම් බද්ද (income tax),
+සමාන්තර ශ්‍රේඪිය / ගුණෝත්තර ශ්‍රේඪිය (AP / GP), පොදු අනුපාතය (common ratio), න්‍යාස (matrices), කරණී (surds), ලඝුගණක (logarithms),
+ආරෝහණ කෝණය / අවරෝහණ කෝණය (elevation / depression), දිගංශය (bearing), වෘත්ත චතුරස්‍රය (cyclic quadrilateral), ස්පර්ශකය (tangent),
+සමරූපී ත්‍රිකෝණ (similar triangles), මධ්‍ය ලක්ෂ්‍ය ප්‍රමේයය (midpoint theorem), සමුච්චිත සංඛ්‍යාත (cumulative frequency), චතුර්ථක (quartiles),
+කේතුව, ගෝලය, අර්ධ ගෝලය, පිරමීඩය, ප්‍රිස්මය, සිලින්ඩරය, නියැදි අවකාශය, ස්වායත්ත සිද්ධි.
+Sinhala text must use correct Unicode (ZWJ in ්‍ර / ්‍ය) and the house spellings (ලක්ෂ්‍යය, ඍණ, …).

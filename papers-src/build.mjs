@@ -44,7 +44,10 @@ function parse(file) {
 
 function header(meta) {
   const si = meta.lang === "si";
-  const left = si ? `${meta.grade} ශ්‍රේණිය  ·  ගණිතය` : `Grade ${meta.grade}  ·  Mathematics`;
+  const ol = meta.grade === 11;
+  const left = ol
+    ? (si ? "අ.පො.ස. (සා.පෙ.)  ·  ගණිතය" : "G.C.E. (O/L)  ·  Mathematics")
+    : (si ? `${meta.grade} ශ්‍රේණිය  ·  ගණිතය` : `Grade ${meta.grade}  ·  Mathematics`);
   const right = si ? "සිංහල මාධ්‍යය" : "English Medium";
   const by = si ? "සකස් කළේ" : "Prepared by";
   return `
