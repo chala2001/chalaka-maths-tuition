@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="200" viewBox="0 0 280 200" font-family="Inter, Arial, 'Nirmala UI', 'Iskoola Pota', sans-serif">
+<line x1="30.0" y1="170.0" x2="250.0" y2="170.0" stroke="#16182a" stroke-width="1.3"/>
+<line x1="30.0" y1="170.0" x2="165.0" y2="9.1" stroke="#16182a" stroke-width="1.3"/>
+<circle cx="30.0" cy="170.0" r="2" fill="#16182a"/>
+<circle cx="170.0" cy="170.0" r="2.4" fill="#16182a"/>
+<text x="22.0" y="184.0" text-anchor="middle" font-size="11" fill="#16182a">A</text>
+<text x="170.0" y="186.0" text-anchor="middle" font-size="11" fill="#16182a">B</text>
+<text x="173.0" y="13.1" text-anchor="start" font-size="11" fill="#16182a">C</text>
+<path d="M90.0,170.0 A60.0,60.0 0 0 0 68.6,124.0" fill="none" stroke="#16182a" stroke-width="1.0"/>
+<path d="M134.2,151.3 A48.0,48.0 0 0 0 122.2,134.4" fill="none" stroke="#16182a" stroke-width="1.0"/>
+<path d="M104.9,155.5 A48.0,48.0 0 0 0 114.7,137.2" fill="none" stroke="#16182a" stroke-width="1.0"/>
+<circle cx="90.0" cy="170.0" r="1.6" fill="#16182a"/>
+<circle cx="68.6" cy="124.0" r="1.6" fill="#16182a"/>
+<text x="94.0" y="183.0" text-anchor="middle" font-size="9" fill="#16182a">P</text>
+<text x="60.6" y="120.0" text-anchor="end" font-size="9" fill="#16182a">Q</text>
+</svg>

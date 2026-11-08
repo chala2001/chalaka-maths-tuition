@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150"><g fill="none" stroke="#16182a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" font-family="Inter, Arial, Nirmala UI, Noto Sans Sinhala, sans-serif"><circle cx="85" cy="78" r="60"/>
+<line x1="85" y1="78" x2="145" y2="78"/>
+<line x1="85" y1="78" x2="25" y2="78"/>
+<line x1="85" y1="78" x2="141.4" y2="98.5"/>
+<text x="85" y="45" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">Rice</text>
+<text x="85" y="61" text-anchor="middle" font-size="10" fill="#16182a" stroke="none">180°</text>
+<text x="85" y="112" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">Dhal</text>
+<text x="150" y="98" text-anchor="start" font-size="10" fill="#16182a" stroke="none">Sugar</text>
+<text x="150" y="110" text-anchor="start" font-size="10" fill="#16182a" stroke="none">20°</text></g></svg>

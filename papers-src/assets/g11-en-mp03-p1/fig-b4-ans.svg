@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" width="400" height="290" font-family="Inter, Arial, 'Nirmala UI', 'Noto Sans Sinhala', sans-serif" font-size="11">
+<g fill="none" stroke="#16182a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+<line x1="55" y1="240" x2="55" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="90" y1="240" x2="90" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="125" y1="240" x2="125" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="160" y1="240" x2="160" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="195" y1="240" x2="195" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="230" y1="240" x2="230" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="265" y1="240" x2="265" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="300" y1="240" x2="300" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="335" y1="240" x2="335" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="370" y1="240" x2="370" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="240" x2="370" y2="240" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="223" x2="370" y2="223" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="206" x2="370" y2="206" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="189" x2="370" y2="189" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="172" x2="370" y2="172" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="155" x2="370" y2="155" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="138" x2="370" y2="138" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="121" x2="370" y2="121" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="104" x2="370" y2="104" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="87" x2="370" y2="87" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="70" x2="370" y2="70" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="53" x2="370" y2="53" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="36" x2="370" y2="36" stroke="#9aa1b2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="55" y1="240" x2="380" y2="240" />
+<line x1="55" y1="240" x2="55" y2="26" />
+<polyline points="375.67,237.5 380,240 375.67,242.5" />
+<polyline points="52.5,30.33 55,26 57.5,30.33" />
+<line x1="55" y1="240" x2="55" y2="244" />
+<text x="55" y="256" text-anchor="middle" stroke="none" fill="#16182a" >0</text>
+<line x1="90" y1="240" x2="90" y2="244" />
+<text x="90" y="256" text-anchor="middle" stroke="none" fill="#16182a" >10</text>
+<line x1="125" y1="240" x2="125" y2="244" />
+<text x="125" y="256" text-anchor="middle" stroke="none" fill="#16182a" >20</text>
+<line x1="160" y1="240" x2="160" y2="244" />
+<text x="160" y="256" text-anchor="middle" stroke="none" fill="#16182a" >30</text>
+<line x1="195" y1="240" x2="195" y2="244" />
+<text x="195" y="256" text-anchor="middle" stroke="none" fill="#16182a" >40</text>
+<line x1="230" y1="240" x2="230" y2="244" />
+<text x="230" y="256" text-anchor="middle" stroke="none" fill="#16182a" >50</text>
+<line x1="265" y1="240" x2="265" y2="244" />
+<text x="265" y="256" text-anchor="middle" stroke="none" fill="#16182a" >60</text>
+<line x1="300" y1="240" x2="300" y2="244" />
+<text x="300" y="256" text-anchor="middle" stroke="none" fill="#16182a" >70</text>
+<line x1="335" y1="240" x2="335" y2="244" />
+<text x="335" y="256" text-anchor="middle" stroke="none" fill="#16182a" >80</text>
+<line x1="370" y1="240" x2="370" y2="244" />
+<text x="370" y="256" text-anchor="middle" stroke="none" fill="#16182a" >90</text>
+<line x1="51" y1="240" x2="55" y2="240" />
+<text x="47" y="244" text-anchor="end" stroke="none" fill="#16182a" >0</text>
+<line x1="51" y1="223" x2="55" y2="223" />
+<text x="47" y="227" text-anchor="end" stroke="none" fill="#16182a" >2</text>
+<line x1="51" y1="206" x2="55" y2="206" />
+<text x="47" y="210" text-anchor="end" stroke="none" fill="#16182a" >4</text>
+<line x1="51" y1="189" x2="55" y2="189" />
+<text x="47" y="193" text-anchor="end" stroke="none" fill="#16182a" >6</text>
+<line x1="51" y1="172" x2="55" y2="172" />
+<text x="47" y="176" text-anchor="end" stroke="none" fill="#16182a" >8</text>
+<line x1="51" y1="155" x2="55" y2="155" />
+<text x="47" y="159" text-anchor="end" stroke="none" fill="#16182a" >10</text>
+<line x1="51" y1="138" x2="55" y2="138" />
+<text x="47" y="142" text-anchor="end" stroke="none" fill="#16182a" >12</text>
+<line x1="51" y1="121" x2="55" y2="121" />
+<text x="47" y="125" text-anchor="end" stroke="none" fill="#16182a" >14</text>
+<line x1="51" y1="104" x2="55" y2="104" />
+<text x="47" y="108" text-anchor="end" stroke="none" fill="#16182a" >16</text>
+<line x1="51" y1="87" x2="55" y2="87" />
+<text x="47" y="91" text-anchor="end" stroke="none" fill="#16182a" >18</text>
+<line x1="51" y1="70" x2="55" y2="70" />
+<text x="47" y="74" text-anchor="end" stroke="none" fill="#16182a" >20</text>
+<line x1="51" y1="53" x2="55" y2="53" />
+<text x="47" y="57" text-anchor="end" stroke="none" fill="#16182a" >22</text>
+<line x1="51" y1="36" x2="55" y2="36" />
+<text x="47" y="40" text-anchor="end" stroke="none" fill="#16182a" >24</text>
+<text x="212.5" y="276" text-anchor="middle" stroke="none" fill="#16182a" >Mass of tea leaves plucked per day (kg)</text>
+<text x="14" y="138" text-anchor="middle" stroke="none" fill="#16182a" transform="rotate(-90 14 138.0)">Number of workers per 10 kg</text>
+<rect x="90" y="172" width="35" height="68" fill="#e8edf6" stroke="#16182a" stroke-width="1.3"/>
+<rect x="125" y="121" width="70" height="119" fill="#e8edf6" stroke="#16182a" stroke-width="1.3"/>
+<rect x="195" y="70" width="35" height="170" fill="#e8edf6" stroke="#16182a" stroke-width="1.3"/>
+<rect x="230" y="138" width="35" height="102" fill="#e8edf6" stroke="#16182a" stroke-width="1.3"/>
+<rect x="265" y="189" width="70" height="51" fill="#e8edf6" stroke="#16182a" stroke-width="1.3"/>
+<polyline points="72.5,240 107.5,172 160,121 212.5,70 247.5,138 300,189 352.5,240" stroke-width="1.6"/>
+<circle cx="72.5" cy="240" r="2.2" fill="#16182a" stroke="none"/>
+<circle cx="107.5" cy="172" r="2.2" fill="#16182a" stroke="none"/>
+<circle cx="160" cy="121" r="2.2" fill="#16182a" stroke="none"/>
+<circle cx="212.5" cy="70" r="2.2" fill="#16182a" stroke="none"/>
+<circle cx="247.5" cy="138" r="2.2" fill="#16182a" stroke="none"/>
+<circle cx="300" cy="189" r="2.2" fill="#16182a" stroke="none"/>
+<circle cx="352.5" cy="240" r="2.2" fill="#16182a" stroke="none"/>
+</g>
+</svg>

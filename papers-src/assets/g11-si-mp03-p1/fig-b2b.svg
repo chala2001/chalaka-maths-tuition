@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 290" width="200" height="290" font-family="Inter, Arial, 'Nirmala UI', 'Noto Sans Sinhala', sans-serif" font-size="11">
+<g fill="none" stroke="#16182a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="43.5,62 106.5,62 106.5,260 43.5,260" fill="none" />
+<path d="M106.5 62 A31.5 31.5 0 0 0 43.5 62" fill="none" />
+<polyline points="106.5,252 98.5,252 98.5,260" />
+<text x="35.5" y="66" text-anchor="end" stroke="none" fill="#16182a" >A</text>
+<text x="114.5" y="66" text-anchor="start" stroke="none" fill="#16182a" >B</text>
+<text x="114.5" y="264" text-anchor="start" stroke="none" fill="#16182a" >C</text>
+<text x="35.5" y="264" text-anchor="end" stroke="none" fill="#16182a" >D</text>
+<text x="75" y="24.5" text-anchor="middle" stroke="none" fill="#16182a" >E</text>
+<text x="75" y="75" text-anchor="middle" stroke="none" fill="#16182a" >7 cm</text>
+<text x="114.5" y="164" text-anchor="start" stroke="none" fill="#16182a" >22 cm</text>
+</g>
+</svg>

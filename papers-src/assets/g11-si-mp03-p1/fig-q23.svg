@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" width="220" height="200" font-family="Inter, Arial, 'Nirmala UI', 'Noto Sans Sinhala', sans-serif" font-size="11">
+<g fill="none" stroke="#16182a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="110" cy="100" r="70" fill="none" />
+<line x1="110" y1="100" x2="40" y2="100" />
+<line x1="110" y1="100" x2="86.06" y2="34.22" />
+<line x1="86.06" y1="34.22" x2="133.94" y2="34.22" />
+<line x1="110" y1="100" x2="133.94" y2="34.22" />
+<line x1="110" y1="170" x2="86.06" y2="34.22" />
+<line x1="110" y1="170" x2="133.94" y2="34.22" />
+<circle cx="110" cy="100" r="1.8" fill="#16182a" stroke="none"/>
+<text x="114" y="114" text-anchor="middle" stroke="none" fill="#16182a" >O</text>
+<text x="31" y="104" text-anchor="middle" stroke="none" fill="#16182a" >A</text>
+<text x="78.06" y="28.22" text-anchor="middle" stroke="none" fill="#16182a" >B</text>
+<text x="141.94" y="28.22" text-anchor="middle" stroke="none" fill="#16182a" >D</text>
+<text x="110" y="184" text-anchor="middle" stroke="none" fill="#16182a" >E</text>
+<path d="M103.16 81.21 A20 20 0 0 0 90 100" fill="none" />
+<text x="78" y="88" text-anchor="middle" stroke="none" fill="#16182a" >70°</text>
+<polyline points="64.67,97.5 69,100 64.67,102.5" />
+<polyline points="69.67,97.5 74,100 69.67,102.5" />
+<polyline points="102.67,31.72 107,34.22 102.67,36.72" />
+<polyline points="107.67,31.72 112,34.22 107.67,36.72" />
+</g>
+</svg>

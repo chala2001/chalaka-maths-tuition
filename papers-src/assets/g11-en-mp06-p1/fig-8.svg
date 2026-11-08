@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225" height="155" viewBox="0 0 225 155"><g fill="none" stroke="#16182a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" font-family="Inter, Arial, Nirmala UI, Noto Sans Sinhala, sans-serif"><circle cx="110" cy="95" r="50"/>
+<line x1="60.0" y1="95.0" x2="200.0" y2="95.0"/>
+<line x1="60.0" y1="95.0" x2="91.3" y2="48.6"/>
+<line x1="91.3" y1="48.6" x2="191.3" y2="48.6"/>
+<line x1="160.0" y1="95.0" x2="191.3" y2="48.6"/>
+<line x1="91.3" y1="48.6" x2="160.0" y2="95.0"/>
+<circle cx="110" cy="95" r="2" fill="#16182a"/>
+<text x="106.0" y="108.0" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">O</text><text x="51.0" y="99.0" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">A</text><text x="168.0" y="109.0" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">B</text><text x="200.3" y="45.6" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">C</text><text x="89.3" y="41.6" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">D</text><text x="208.0" y="109.0" text-anchor="middle" font-size="11" fill="#16182a" stroke="none">E</text>
+<path d="M174.3,48.6 A17,17 0 0 0 181.8,62.7"/><text x="201.3" y="75.6" text-anchor="middle" font-size="10" fill="#16182a" stroke="none">56°</text></g></svg>
