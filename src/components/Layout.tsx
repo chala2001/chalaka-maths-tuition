@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { SITE } from "../data/site";
 import { TUTORIALS } from "../data/tutorials";
 import { TUTORIAL_DOCS } from "../data/papers";
+import ChatAssistant from "./ChatAssistant";
 
 function Nav() {
   const [open, setOpen] = useState(false);
@@ -75,6 +76,7 @@ export default function Layout() {
           </span>
         </div>
       </footer>
+      <ChatAssistant />
     </>
   );
 }
