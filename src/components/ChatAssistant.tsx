@@ -9,8 +9,10 @@ type Msg = { id: number; from: "bot" | "user"; text?: string; reply?: Reply; que
 
 const ChatIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.5-4.6A8 8 0 1 1 21 12Z" />
-    <path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01" strokeWidth={2.4} />
+    <rect x="4" y="7" width="16" height="12" rx="4" />
+    <path d="M12 3.5V7M9.5 12.5h.01M14.5 12.5h.01" strokeWidth={2.2} />
+    <path d="M9.8 15.6c1.3.9 3.1.9 4.4 0" />
+    <path d="M2 12v2M22 12v2" />
   </svg>
 );
 const CloseIcon = () => (
@@ -186,12 +188,12 @@ export default function ChatAssistant() {
       <button
         ref={fabRef}
         type="button"
-        className="ca-fab"
+        className={`ca-fab ${open ? "is-open" : ""}`}
         aria-label={open ? "Close chat assistant" : "Open chat assistant"}
         aria-expanded={open}
         onClick={() => setOpen((o) => !o)}
       >
-        {open ? <CloseIcon /> : <ChatIcon />}
+        {open ? <CloseIcon /> : <><ChatIcon /><span className="ca-fab-label">Ask me</span></>}
       </button>
     </div>
   );

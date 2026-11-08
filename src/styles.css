@@ -356,6 +356,9 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   box-shadow: 0 12px 28px -8px rgba(18,24,43,.5); cursor: pointer; transition: transform .2s, background .2s;
 }
 .ca-fab:hover { transform: translateY(-2px) scale(1.04); background: var(--navy); }
+.ca-fab:not(.is-open) { width: auto; height: 54px; border-radius: 999px; padding: 0 20px 0 15px; display: inline-flex; gap: 9px; animation: ca-pulse 2.4s ease-out 1.2s 2; }
+.ca-fab-label { font-weight: 600; font-size: 15px; color: #fff; letter-spacing: .01em; }
+@keyframes ca-pulse { 0% { box-shadow: 0 0 0 0 rgba(184,134,47,.55), 0 12px 28px -8px rgba(18,24,43,.5); } 100% { box-shadow: 0 0 0 16px rgba(184,134,47,0), 0 12px 28px -8px rgba(18,24,43,.5); } }
 .ca-fab:focus-visible, .ca-chip:focus-visible, .ca-close:focus-visible, .ca-send:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .ca-fab svg { width: 26px; height: 26px; }
 .ca-panel {
@@ -407,7 +410,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
 }
 @media (prefers-reduced-motion: reduce) {
   .ca-panel, .ca-typing i { animation: none; }
-  .ca-fab, .ca-chip { transition: none; }
+  .ca-fab, .ca-chip { transition: none; animation: none !important; }
 }
 
 /* ============ Official past papers card ============ */
@@ -422,4 +425,8 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
 @media (max-width: 760px) {
   .official-card { grid-template-columns: 1fr; padding: 22px 20px; }
   .official-actions { justify-content: flex-start; }
+}
+@media (max-width: 420px) {
+  .ca-fab:not(.is-open) { width: 56px; height: 56px; padding: 0; justify-content: center; }
+  .ca-fab-label { display: none; }
 }
