@@ -95,6 +95,8 @@ export default function Home() {
               <p>Teaching since November 2020</p>
               <ul>
                 <li>O/L Mathematics</li>
+                <li>O/L Science</li>
+                <li>O/L ICT</li>
                 <li>A/L Combined Mathematics</li>
                 <li>A/L Physics</li>
               </ul>
