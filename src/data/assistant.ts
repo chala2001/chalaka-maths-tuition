@@ -4,12 +4,12 @@
 //   - label:    text on the quick-reply button
 //   - keywords: words/phrases (lowercase) that trigger this answer when typed
 //   - answer:   the reply (plain text; use \n for new lines)
-//   - cta:      optional extra button: "whatsapp" | "papers" | "call" | "email"
+//   - cta:      optional extra button: "whatsapp" | "papers" | "official" | "call" | "email"
 //  No AI and no server: it only matches the keywords below.
 // ============================================================
 import { SITE } from "./site";
 
-export type Cta = "whatsapp" | "papers" | "call" | "email";
+export type Cta = "whatsapp" | "papers" | "official" | "call" | "email";
 
 export interface Faq {
   id: string;
@@ -74,9 +74,17 @@ export const FAQS: Faq[] = [
       "He has 6+ years of teaching experience, since Nov 2020: O/L Maths, Science and ICT, and A/L Combined Maths and Physics.",
   },
   {
+    id: "pastpapers",
+    label: "Official past papers",
+    keywords: ["past paper", "past papers", "official", "previous", "old paper", "old papers", "department of examinations", "doenets", "pastpapers", "evaluation report", "පසුගිය", "පසුගිය ප්‍රශ්න පත්‍ර", "පැරණි"],
+    answer:
+      "Official G.C.E. O/L past papers are on the Department of Examinations website. Official marking schemes are published there in the Evaluation Reports.",
+    cta: "official",
+  },
+  {
     id: "papers",
     label: "Free papers",
-    keywords: ["paper", "papers", "free", "model", "past paper", "download", "marking scheme", "scheme", "pdf", "ප්‍රශ්න පත්‍ර", "ප්‍රශ්න පත්‍රය", "පත්‍ර", "නිදහස්", "නොමිලේ"],
+    keywords: ["paper", "papers", "free", "model", "download", "marking scheme", "scheme", "pdf", "ප්‍රශ්න පත්‍ර", "ප්‍රශ්න පත්‍රය", "පත්‍ර", "නිදහස්", "නොමිලේ"],
     answer:
       "All model papers, tutorials and marking schemes are free. Open the Papers page, pick a grade and medium, then use View to read online or Download to save the PDF. Most papers have a marking scheme attached. You can also ask me, for example \"grade 11 sinhala model paper\".",
     cta: "papers",

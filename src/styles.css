@@ -409,3 +409,17 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   .ca-panel, .ca-typing i { animation: none; }
   .ca-fab, .ca-chip { transition: none; }
 }
+
+/* ============ Official past papers card ============ */
+.official-card {
+  margin-top: 56px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: center;
+  background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--gold);
+  border-radius: 22px; padding: 28px 30px; box-shadow: var(--shadow);
+}
+.official-card h2 { font-size: clamp(24px, 3vw, 30px); margin: 10px 0 8px; }
+.official-card p { color: var(--ink-2); font-size: 15px; max-width: 560px; }
+.official-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
+@media (max-width: 760px) {
+  .official-card { grid-template-columns: 1fr; padding: 22px 20px; }
+  .official-actions { justify-content: flex-start; }
+}

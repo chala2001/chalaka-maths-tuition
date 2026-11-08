@@ -13,6 +13,9 @@ export const SITE = {
   photo: "/chalak_PP.jpeg", // photo lives in /public
   linkedin: "https://www.linkedin.com/in/chalaka-perera-a280b9324/",
   medium: "https://medium.com/@chalakasamith",
+  // Official Department of Examinations pages (papers + marking schemes in evaluation reports)
+  officialPastPapers: "https://www.doenets.lk/pastpapers",
+  officialMarkingSchemes: "https://www.doenets.lk/evaluationreports",
 };
 
 export const waLink = (msg = "Hi Sir, I'd like to know about your maths classes.") =>

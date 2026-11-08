@@ -66,6 +66,12 @@ function BotReply({ m, onNavigate }: { m: Msg; onNavigate: () => void }) {
       {faq.cta === "whatsapp" && (
         <a className="btn gold sm ca-btn" href={waLink()} target="_blank" rel="noopener"><WhatsAppIcon /> Message Sir on WhatsApp</a>
       )}
+      {faq.cta === "official" && (
+        <div className="ca-row">
+          <a className="btn gold sm" href={SITE.officialPastPapers} target="_blank" rel="noopener">Past papers ↗</a>
+          <a className="btn ghost sm" href={SITE.officialMarkingSchemes} target="_blank" rel="noopener">Marking schemes ↗</a>
+        </div>
+      )}
       {faq.cta === "papers" && (
         <Link className="btn ghost sm ca-btn" to="/papers" onClick={onNavigate}>Open the Papers page</Link>
       )}

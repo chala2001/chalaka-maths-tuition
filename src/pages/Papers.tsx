@@ -4,6 +4,7 @@ import PaperCard from "../components/PaperCard";
 import { SearchIcon } from "../components/Icons";
 import { PAPERS, type Paper } from "../data/papers";
 import { useTitle } from "../hooks";
+import { SITE } from "../data/site";
 
 type Opt = { v: string; label: string };
 
@@ -95,6 +96,18 @@ export default function Papers() {
           ) : (
             <div className="empty"><b>∅</b>No papers here yet. Try another filter.</div>
           )}
+
+          <div className="official-card">
+            <div>
+              <span className="eyebrow">Official resources</span>
+              <h2>G.C.E. O/L past papers &amp; marking schemes</h2>
+              <p>Real past papers from the Department of Examinations, Sri Lanka. Marking schemes are published in their <b>Evaluation Reports</b>. Opens the official website in a new tab.</p>
+            </div>
+            <div className="official-actions">
+              <a className="btn gold" href={SITE.officialPastPapers} target="_blank" rel="noopener">Official past papers ↗</a>
+              <a className="btn ghost" href={SITE.officialMarkingSchemes} target="_blank" rel="noopener">Marking schemes ↗</a>
+            </div>
+          </div>
         </div>
       </section>
     </>
