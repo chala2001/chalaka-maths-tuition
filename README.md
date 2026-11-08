@@ -37,10 +37,6 @@ papers-src/
   originals/          original PDFs
   build.mjs           builds PDFs + the website's paper list
   GUIDE.md            how a paper is written
-local-docs/
-  templates/          blank templates: paper, marking scheme, worked answers, tutorial
-  preview/            those templates as PDFs
-  new.mjs             start a new paper from a template
 ```
 
 ## Run locally
@@ -53,12 +49,11 @@ npm run dev          # http://localhost:5173
 ## Add a new paper
 
 ```bash
-node local-docs/new.mjs paper si 10 7        # creates papers-src/docs/g10-si-mp07-paper.html
-# edit the file
+# copy a doc in papers-src/docs/ (or use the private templates), then edit it
 node papers-src/build.mjs g10-si-mp07        # builds the PDF and adds it to the site
 ```
 
-More in [`local-docs/README.md`](local-docs/README.md) and [`papers-src/GUIDE.md`](papers-src/GUIDE.md).
+More in [`papers-src/GUIDE.md`](papers-src/GUIDE.md).
 
 ## Contact
 

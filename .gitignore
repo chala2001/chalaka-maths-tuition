@@ -4,3 +4,6 @@ dist
 .vercel
 papers-src/build
 papers-src/unpublished
+
+# Private, local only (templates, previews, handoff notes)
+local-docs/
