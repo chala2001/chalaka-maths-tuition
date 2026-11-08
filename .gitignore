@@ -7,3 +7,4 @@ papers-src/unpublished
 
 # Private, local only (templates, previews, handoff notes)
 local-docs/
+*.tsbuildinfo
