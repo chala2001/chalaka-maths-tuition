@@ -154,6 +154,28 @@
     "file": "/pdfs/grade-11/g11-en-mp01-p1.pdf"
   },
   {
+    "id": "g11-en-mp01-p2-scheme",
+    "title": "Model Paper 01 — Paper II Marking Scheme",
+    "grade": 11,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 1,
+    "pairOf": "g11-en-mp01-p2",
+    "file": "/pdfs/grade-11/g11-en-mp01-p2-scheme.pdf"
+  },
+  {
+    "id": "g11-en-mp01-p2",
+    "title": "Model Paper 01 — Paper II",
+    "grade": 11,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 1,
+    "pairOf": null,
+    "file": "/pdfs/grade-11/g11-en-mp01-p2.pdf"
+  },
+  {
     "id": "g11-en-mp02-p1-scheme",
     "title": "Model Paper 02 — Paper I Marking Scheme",
     "grade": 11,
@@ -284,6 +306,28 @@
     "number": 1,
     "pairOf": null,
     "file": "/pdfs/grade-11/g11-si-mp01-p1.pdf"
+  },
+  {
+    "id": "g11-si-mp01-p2-scheme",
+    "title": "Model Paper 01 — Paper II Marking Scheme",
+    "grade": 11,
+    "medium": "Sinhala",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 1,
+    "pairOf": "g11-si-mp01-p2",
+    "file": "/pdfs/grade-11/g11-si-mp01-p2-scheme.pdf"
+  },
+  {
+    "id": "g11-si-mp01-p2",
+    "title": "Model Paper 01 — Paper II",
+    "grade": 11,
+    "medium": "Sinhala",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 1,
+    "pairOf": null,
+    "file": "/pdfs/grade-11/g11-si-mp01-p2.pdf"
   },
   {
     "id": "g11-si-mp02-p1-scheme",
