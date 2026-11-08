@@ -6,17 +6,11 @@ import { PAPERS } from "../data/papers";
 import { SITE, waLink } from "../data/site";
 import { useTitle } from "../hooks";
 
-type Cred = { big: string; sup?: string; text: string; wide?: boolean; badges?: string[] };
-
-const CREDS: Cred[] = [
-  {
-    big: "First Class",
-    text: "BSc (Hons) Computer Engineering · Faculty of Engineering, University of Peradeniya",
-    wide: true,
-    badges: ["GPA 3.971 / 4.0"],
-  },
-  { big: "3A", sup: "s", text: "G.C.E. A/L · Combined Maths, Physics, Chemistry · 1st attempt" },
-  { big: "9A", sup: "s", text: "G.C.E. O/L" },
+const QUALS: { title: string; detail?: string; badge?: string }[] = [
+  { title: "BSc (Hons) Computer Engineering", detail: "First Class · Faculty of Engineering, University of Peradeniya", badge: "GPA 3.971 / 4.0" },
+  { title: "G.C.E. A/L: 3 A's", detail: "Combined Maths, Physics, Chemistry · 1st attempt" },
+  { title: "G.C.E. O/L: 9 A's" },
+  { title: "University teaching experience", detail: "Instructor at the University of Peradeniya, guiding undergraduate students in lab classes (2023 – 2026)" },
 ];
 
 const WHY = [
@@ -84,25 +78,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CREDENTIALS */}
-      <section className="creds">
-        <div className="wrap">
-          <Reveal className="creds-grid">
-            {CREDS.map((c) => (
-              <div className={`cred ${c.wide ? "wide" : ""}`} key={c.big}>
-                <b>{c.big}{c.sup && <sup>{c.sup}</sup>}</b>
-                <span>{c.text}</span>
-                {c.badges && (
-                  <div className="cred-badges">
-                    {c.badges.map((t) => <em key={t}>{t}</em>)}
-                  </div>
-                )}
-              </div>
-            ))}
-          </Reveal>
-        </div>
-      </section>
-
       {/* ABOUT */}
       <section id="about">
         <div className="wrap about-grid">
@@ -117,6 +92,21 @@ export default function Home() {
             <span className="eyebrow">About</span>
             <h2>An engineer who <em>teaches</em> maths.</h2>
             <p>I teach the way I learned: understand the idea first, then practise until it sticks. No memorising. Just clear thinking.</p>
+            <div className="quals">
+              <h3>Qualifications &amp; experience</h3>
+              <ul>
+                {QUALS.map((q) => (
+                  <li key={q.title}>
+                    <span className="tick">✓</span>
+                    <div>
+                      <strong>{q.title}</strong>
+                      {q.detail && <span>{q.detail}</span>}
+                      {q.badge && <em>{q.badge}</em>}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="why">
               {WHY.map(([h, p], i) => (
                 <div key={h}>

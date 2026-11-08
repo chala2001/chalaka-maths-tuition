@@ -163,6 +163,14 @@ section { padding: 96px 0; }
 .portrait .tag strong { display: block; color: var(--ink); font-size: 15px; }
 .about-text h2 { font-size: clamp(32px, 4.5vw, 48px); margin: 12px 0 20px; }
 .about-text > p { color: var(--ink-2); font-size: 17px; max-width: 540px; }
+.quals { margin-top: 28px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px 24px; }
+.quals h3 { font-family: var(--mono); font-size: 12.5px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+.quals ul { list-style: none; display: grid; gap: 14px; }
+.quals li { display: grid; grid-template-columns: 26px 1fr; gap: 10px; align-items: start; }
+.quals .tick { width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: var(--gold-soft); display: grid; place-items: center; font-size: 12px; margin-top: 2px; }
+.quals strong { display: block; font-size: 15.5px; }
+.quals span:not(.tick) { display: block; font-size: 14px; color: var(--ink-2); line-height: 1.5; }
+.quals em { display: inline-block; margin-top: 6px; font-style: normal; font-size: 12.5px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--gold); color: #fff; }
 .why { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 34px; }
 .why div { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
 .why .ico { font-family: var(--serif); font-size: 26px; color: var(--gold); font-style: italic; line-height: 1; }
