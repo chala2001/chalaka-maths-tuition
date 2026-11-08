@@ -81,13 +81,25 @@ export default function Home() {
       {/* ABOUT */}
       <section id="about">
         <div className="wrap about-grid">
-          <Reveal className="portrait">
-            {SITE.photo ? <img src={SITE.photo} alt={SITE.name} /> : <div className="ph"><b>∫</b>Your photo here</div>}
-            <div className="tag">
-              <strong>{SITE.name}</strong>
-              {SITE.degree} · {SITE.university}
-            </div>
-          </Reveal>
+          <div className="about-left">
+            <Reveal className="portrait">
+              {SITE.photo ? <img src={SITE.photo} alt={SITE.name} /> : <div className="ph"><b>∫</b>Your photo here</div>}
+              <div className="tag">
+                <strong>{SITE.name}</strong>
+                {SITE.degree} · {SITE.university}
+              </div>
+            </Reveal>
+            <Reveal className="exp-card">
+              <span className="exp-label">Tuition experience</span>
+              <b>6+ <small>years</small></b>
+              <p>Teaching since November 2020</p>
+              <ul>
+                <li>O/L Mathematics</li>
+                <li>A/L Combined Mathematics</li>
+                <li>A/L Physics</li>
+              </ul>
+            </Reveal>
+          </div>
           <Reveal className="about-text">
             <span className="eyebrow">About</span>
             <h2>An engineer who <em>teaches</em> maths.</h2>
