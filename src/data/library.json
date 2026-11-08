@@ -44,6 +44,28 @@
     "file": "/pdfs/grade-10/g10-en-mp02-scheme.pdf"
   },
   {
+    "id": "g10-en-mp03-paper",
+    "title": "Model Paper 03",
+    "grade": 10,
+    "medium": "English",
+    "kind": "Model Paper",
+    "topic": null,
+    "number": 3,
+    "pairOf": null,
+    "file": "/pdfs/grade-10/g10-en-mp03-paper.pdf"
+  },
+  {
+    "id": "g10-en-mp03-scheme",
+    "title": "Model Paper 03 — Marking Scheme",
+    "grade": 10,
+    "medium": "English",
+    "kind": "Marking Scheme",
+    "topic": null,
+    "number": 3,
+    "pairOf": "g10-en-mp03-paper",
+    "file": "/pdfs/grade-10/g10-en-mp03-scheme.pdf"
+  },
+  {
     "id": "g10-si-mp01-paper",
     "title": "Model Paper 01",
     "grade": 10,
