@@ -11,6 +11,7 @@ Students can view and download model papers, marking schemes and worked answers 
 
 | | |
 |---|---|
+| **G.C.E. O/L model papers** | 6 full papers (Paper I + Paper II) in English and Sinhala, each with marking schemes, following the latest O/L exam structure |
 | **Grade 10 model papers** | 6 full papers (Sinhala medium), each with its marking scheme |
 | **Grade 9 model papers** | 6 third-term papers in English and Sinhala, each with its marking scheme |
 | **Grade 9 tutorials** | Algebraic Fractions, Area, Axioms, Graphs, Inequalities, Loci & Constructions, in English and Sinhala, each with worked answers |
